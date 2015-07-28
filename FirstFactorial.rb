@@ -1,9 +1,6 @@
 def FirstFactorial(num)
-
 	fact = (1..num).inject(1, :*)
-
-  return fact
-         
+	return fact
 end
    
 # keep this function call here 
